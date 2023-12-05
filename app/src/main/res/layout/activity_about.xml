@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EFE9"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="726dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="296dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/rulesName"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="327dp"
+                android:layout_height="142dp"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/rules"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/screenshot_2023_11_17_09_26_35_772_ru_mggtk_mymodernist" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                app:srcCompat="@drawable/screenshot_2023_11_17_09_27_42_113_ru_mggtk_mymodernist" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="327dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/rules2"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/screenshot_2023_11_17_09_22_52_427_ru_mggtk_mymodernist" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                app:srcCompat="@drawable/screenshot_2023_11_17_09_23_12_479_ru_mggtk_mymodernist" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="327dp"
+                android:layout_height="78dp"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/rules3"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                app:srcCompat="@drawable/screenshot_2023_11_17_09_22_59_906_ru_mggtk_mymodernist" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1ECE4"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="363dp"
+        android:layout_height="643dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="83dp">
+
+                <ImageView
+                    android:id="@+id/imageView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="83dp"
+                    android:layout_gravity="center|top"
+                    android:src="@android:drawable/screen_background_light_transparent"
+                    android:tint="#CED6D1C9"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.423"
+                    tools:ignore="MissingConstraints,UseAppTint" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text="Добро пожаловать в My Modernist!"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#534C4C"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Интересные статьи"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:backgroundTint="#CED6D1C9">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:id="@+id/imageView20"
+                            android:layout_width="181dp"
+                            android:layout_height="192dp"
+                            android:layout_gravity="center|top"
+                            android:src="@android:drawable/screen_background_light_transparent"
+                            android:tint="#F6F6F6"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.423"
+                            tools:ignore="MissingConstraints,UseAppTint" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            style="@android:style/Widget.ImageButton"
+                            android:layout_width="169dp"
+                            android:layout_height="133dp"
+                            android:layout_gravity="center|top"
+                            android:background="#85CDC7C7"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/_25253" />
+
+                        <TextView
+                            android:id="@+id/textView50"
+                            android:layout_width="172dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:layout_marginBottom="45dp"
+                            android:fontFamily="serif"
+                            android:lineSpacingExtra="1sp"
+                            android:text="Что такое модернизм?"
+                            android:textAlignment="center"
+                            android:textColor="#716868"
+                            android:textSize="13sp"
+                            tools:ignore="RtlCompat" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:id="@+id/imageView38"
+                            android:layout_width="181dp"
+                            android:layout_height="192dp"
+                            android:layout_gravity="center|top"
+                            android:src="@android:drawable/screen_background_light_transparent"
+                            android:tint="#F6F6F6"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.423"
+                            tools:ignore="MissingConstraints,UseAppTint" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton2"
+                            style="@android:style/Widget.ImageButton"
+                            android:layout_width="169dp"
+                            android:layout_height="133dp"
+                            android:layout_gravity="center|top"
+                            android:background="#85CDC7C7"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/kandinsky_" />
+
+                        <TextView
+                            android:id="@+id/textView509"
+                            android:layout_width="172dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:layout_marginBottom="14dp"
+                            android:fontFamily="serif"
+                            android:lineSpacingExtra="1sp"
+                            android:text="Василий Кандинский. Специальный проект Артхива о художнике"
+                            android:textAlignment="center"
+                            android:textColor="#716868"
+                            android:textSize="13sp"
+                            tools:ignore="RtlCompat" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="191dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:id="@+id/imageView41"
+                            android:layout_width="181dp"
+                            android:layout_height="192dp"
+                            android:layout_gravity="center|top"
+                            android:src="@android:drawable/screen_background_light_transparent"
+                            android:tint="#F6F6F6"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.423"
+                            tools:ignore="MissingConstraints,UseAppTint" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton5"
+                            style="@android:style/Widget.ImageButton"
+                            android:layout_width="169dp"
+                            android:layout_height="133dp"
+                            android:layout_gravity="center|top"
+                            android:background="#85CDC7C7"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/_owmnt1t454884" />
+
+                        <TextView
+                            android:id="@+id/textView502"
+                            android:layout_width="172dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:layout_marginBottom="30dp"
+                            android:fontFamily="serif"
+                            android:lineSpacingExtra="1sp"
+                            android:text="Влияние Фрейда на Сальвадора Дали"
+                            android:textAlignment="center"
+                            android:textColor="#716868"
+                            android:textSize="13sp"
+                            tools:ignore="RtlCompat" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#534C4C"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Деятели искусства "
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Смотреть все"
+                android:textAlignment="textEnd"
+                android:textColor="#999B432C"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#CED6D1C9">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="155dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView203"
+                            android:layout_width="140dp"
+                            android:layout_height="190dp"
+                            android:src="@android:drawable/screen_background_light_transparent"
+                            android:tint="#F6F6F6"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.423"
+                            tools:ignore="MissingConstraints,UseAppTint" />
+
+                        <ImageButton
+
+                            android:id="@+id/imageButton6"
+                            style="@android:style/Widget.Holo.Light.ImageButton"
+                            android:layout_width="130dp"
+
+                            android:layout_height="130dp"
+                            android:layout_gravity="left"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="10dp"
+                            android:foreground="@drawable/tgm_bakst_"
+                            android:foregroundTintMode="add"
+                            android:saveEnabled="false"
+                            android:scaleType="centerInside"
+                            android:tintMode="add" />
+
+                        <TextView
+                            android:id="@+id/textView54"
+                            android:layout_width="124dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="145dp"
+                            android:fontFamily="serif"
+                            android:text="Лев Самойлович Бакст"
+                            android:textAlignment="center"
+                            android:textColor="#716868"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="155dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView210"
+                            android:layout_width="140dp"
+                            android:layout_height="190dp"
+                            android:src="@android:drawable/screen_background_light_transparent"
+                            android:tint="#F6F6F6"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.423"
+                            tools:ignore="MissingConstraints,UseAppTint" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton9"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="10dp"
+                            android:foreground="@drawable/kupka"
+                            android:scaleType="centerInside" />
+
+                        <TextView
+                            android:id="@+id/textView5434"
+                            android:layout_width="124dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="145dp"
+                            android:fontFamily="serif"
+                            android:text="Франтишек Купка"
+                            android:textAlignment="center"
+                            android:textColor="#716868"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="155dp"
+                        android:layout_height="205dp"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView2320"
+                            android:layout_width="140dp"
+                            android:layout_height="190dp"
+                            android:src="@android:drawable/screen_background_light_transparent"
+                            android:tint="#F6F6F6"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.423"
+                            tools:ignore="MissingConstraints,UseAppTint" />
+
+                        <ImageButton
+
+                            android:id="@+id/imageButton10"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="10dp"
+                            android:foreground="@drawable/salvador_dal"
+                            android:scaleType="centerInside" />
+
+                        <TextView
+                            android:id="@+id/textView542"
+                            android:layout_width="124dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="145dp"
+                            android:fontFamily="serif"
+                            android:text="Сальвадор Дали"
+                            android:textAlignment="center"
+                            android:textColor="#716868"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#EAE4DD"
+    tools:context=".Leo">
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="747dp"
+        android:backgroundTint="#ECE6DD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#ECE6DD"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="481dp"
+                android:backgroundTintMode="screen">
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="481dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/tgm_bakst_02_08_01__1_" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="430dp"
+                    android:fontFamily="serif"
+                    android:text="Россия • 1866-1924"
+                    android:textAlignment="textStart"
+                    android:textColor="#D9FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="390dp"
+                    android:fontFamily="serif"
+                    android:text="Лев Самойлович Бакст"
+                    android:textColor="#D9FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="@style/Widget.Material3.Button.IconButton"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#BFFFFFFF"
+                    app:icon="@drawable/free_icon_arrow_left_9847479"
+                    app:iconGravity="textStart"
+                    app:iconSize="35dp"
+                    app:iconTint="#BFFFFFFF"
+                    app:iconTintMode="src_in" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="385dp">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="serif"
+                    android:text="Биография"
+                    android:textAlignment="viewStart"
+                    android:textAllCaps="false"
+                    android:textColor="#E6534C4C"
+                    android:textSize="24sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:id="@+id/textLeo"
+                    android:layout_width="359dp"
+                    android:layout_height="192dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="10sp"
+                    android:text="@string/textLeo"
+                    android:textAlignment="center"
+                    android:textColor="#E6534C4C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="155dp"
+                    android:layout_marginTop="300dp"
+                    android:fontFamily="serif"
+                    android:text="@string/seeMore"
+                    android:textAlignment="center"
+                    android:textColor="#999B432C"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center|top"
+                android:fontFamily="serif"
+                android:text="Интересные факты"
+                android:textAlignment="viewStart"
+                android:textColor="#E6534C4C"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <FrameLayout
+                android:layout_width="380dp"
+                android:layout_height="148dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="360dp"
+                    android:layout_height="133dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="8sp"
+                    android:text="@string/Fact1"
+                    android:textAlignment="center"
+                    android:textColor="#E6534C4C"
+                    android:textSize="15sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="380dp"
+                android:layout_height="159dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/textView408"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="8sp"
+                    android:text="@string/fact2"
+                    android:textAlignment="center"
+                    android:textColor="#E6534C4C"
+                    android:textSize="15sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="87dp">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:text="Работы художника"
+                    android:textAlignment="viewStart"
+                    android:textColor="#E6534C4C"
+                    android:textSize="24sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat" />
+
+            </FrameLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="372dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="370dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="200dp"
+                            android:layout_height="285dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_83304" />
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="300dp"
+                            android:fontFamily="serif"
+                            android:text="Эскиз костюма
+                            1923 • 45×29 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView90"
+                            android:layout_width="158dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="275dp"
+                            android:fontFamily="serif"
+                            android:text="Фантазия на тему костюма модерн
+                            1910 • 31×27 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="220dp"
+                            android:layout_height="260dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/fs" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="154dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="300dp"
+                            android:fontFamily="serif"
+                            android:text="Баядерка. Эскиз костюма к балету «Голубой бог»
+
+1912 • 29×19 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="200dp"
+                            android:layout_height="285dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_46882" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView97"
+                            android:layout_width="154dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="300dp"
+                            android:fontFamily="serif"
+                            android:text="Спящая красавица
+                            1922 • 213×143 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="200dp"
+                            android:layout_height="285dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_82695" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView96"
+                            android:layout_width="224dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="245dp"
+                            android:fontFamily="serif"
+                            android:text="Сценография к балету «Послеполуденный отдых Фавна»
+                            1912 • 105×75 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="280dp"
+                            android:layout_height="260dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_52947" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView93"
+                            android:layout_width="167dp"
+                            android:layout_height="57dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="275dp"
+                            android:fontFamily="serif"
+                            android:text="Фронтиспис для сборника стихов Александра Блока «Снежная маска»
+                            1907"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="200dp"
+                            android:layout_height="260dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            app:srcCompat="@drawable/_83383" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

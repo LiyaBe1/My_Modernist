@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyModernist"
+        tools:targetApi="31">
+        <activity
+            android:name=".KandinskyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DaliFradeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModernismActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.NextOfDaliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NextOfPabloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NextOfKupkaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NextOfAmilioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NextOfClimtActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NextOfLeoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Amilio"
+            android:exported="false" />
+        <activity
+            android:name=".Pablo"
+            android:exported="false" />
+        <activity
+            android:name=".Brack"
+            android:exported="false" />
+        <activity
+            android:name=".Dali"
+            android:exported="false" />
+        <activity
+            android:name=".Kupka"
+            android:exported="false" />
+        <activity
+            android:name=".Climt"
+            android:exported="false" />
+        <activity
+            android:name=".Shile"
+            android:exported="false" />
+        <activity
+            android:name=".Leo"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.MyModernist.NoActionBar" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

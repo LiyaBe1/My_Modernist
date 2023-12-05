@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NextOfKupkaActivity">
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="1dp"
+        android:background="#FFFFFF"
+        app:icon="@drawable/free_icon_arrow_left_9847479"
+        app:iconGravity="textStart"
+        app:iconPadding="5sp"
+        app:iconSize="35dp"
+        app:iconTint="#BF9C9C9C"
+        app:iconTintMode="src_in"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="370dp"
+        android:layout_height="694dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:fontFamily="serif"
+                android:text="Биография"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#E6534C4C"
+                android:textSize="22sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textLeo2"
+                android:layout_width="wrap_content"
+                android:layout_height="627dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Kupka1"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="394dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="315dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/_57048" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="116dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="160dp"
+                    android:fontFamily="serif"
+                    android:text="Автопортрет
+                    1905"
+                    android:textAlignment="center"
+                    android:textColor="#99534C4C"
+                    android:textSize="12sp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textLeo9"
+                android:layout_width="wrap_content"
+                android:layout_height="380dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Kupka2"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="279dp">
+
+                <ImageView
+                    android:id="@+id/imageView664"
+                    android:layout_width="match_parent"
+                    android:layout_height="216dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/_27562" />
+
+                <TextView
+                    android:id="@+id/textView753"
+                    android:layout_width="116dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="115dp"
+                    android:fontFamily="serif"
+                    android:text="Библиоман
+                    1897"
+                    android:textAlignment="center"
+                    android:textColor="#99534C4C"
+                    android:textSize="12sp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textLeo10"
+                android:layout_width="match_parent"
+                android:layout_height="771dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Kupka3"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="265dp"
+                android:layout_height="370dp"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageView1164"
+                    android:layout_width="261dp"
+                    android:layout_height="298dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/_61026" />
+
+                <TextView
+                    android:id="@+id/textView357"
+                    android:layout_width="116dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="150dp"
+                    android:fontFamily="serif"
+                    android:text="Деньги
+                    1899 • 81×81 см"
+                    android:textAlignment="center"
+                    android:textColor="#99534C4C"
+                    android:textSize="12sp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textLeo7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Kupka4"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="426dp">
+
+                <ImageView
+                    android:id="@+id/imageView117"
+                    android:layout_width="match_parent"
+                    android:layout_height="346dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/frantishek_kupka_put_tishinyi_ii_catpage" />
+
+                <TextView
+                    android:id="@+id/textView377"
+                    android:layout_width="116dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="160dp"
+                    android:fontFamily="serif"
+                    android:text="Путь тишины II
+                    1903"
+                    android:textAlignment="center"
+                    android:textColor="#99534C4C"
+                    android:textSize="12sp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textLeo3"
+                android:layout_width="wrap_content"
+                android:layout_height="635dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Kupka5"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="370dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="235dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="230dp"
+                            android:fontFamily="serif"
+                            android:text="Вокруг точки
+                            1925 • 23.8×20.1 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="210dp"
+                            android:layout_height="227dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_65897" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView986"
+                            android:layout_width="156dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="220dp"
+                            android:fontFamily="serif"
+                            android:text="Аморфа. Фуга в двух цветах
+                            1912 • 41×47 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView967"
+                            android:layout_width="210dp"
+                            android:layout_height="227dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_56720" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textLeo11"
+                android:layout_width="match_parent"
+                android:layout_height="1072dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Kupka6"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="349dp"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="400dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="260dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView67"
+                            android:layout_width="220dp"
+                            android:layout_height="300dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_61527" />
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="154dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="265dp"
+                            android:fontFamily="serif"
+                            android:text="Музыка
+                            1932 • 85×93 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="244dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView51"
+                            android:layout_width="183dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="270dp"
+                            android:fontFamily="serif"
+                            android:text="Желтые вертикали
+                            1913 • 70×70 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView815"
+                            android:layout_width="220dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_61968" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView871"
+                            android:layout_width="144dp"
+                            android:layout_height="43dp"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginTop="270dp"
+                            android:fontFamily="serif"
+                            android:text="Механизм
+                            1928 • 75×85 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView891"
+                            android:layout_width="250dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_61630" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

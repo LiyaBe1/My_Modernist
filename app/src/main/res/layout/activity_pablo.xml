@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pablo">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTintMode="screen">
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="481dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/_43201__1_" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="430dp"
+                    android:fontFamily="serif"
+                    android:text="Испания • 1881−1973"
+                    android:textAlignment="textStart"
+                    android:textColor="#D9FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="390dp"
+                    android:fontFamily="serif"
+                    android:text="Пабло Пикассо"
+                    android:textColor="#D9FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="@style/Widget.Material3.Button.IconButton"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#BFFFFFFF"
+                    app:icon="@drawable/free_icon_arrow_left_9847479"
+                    app:iconGravity="textStart"
+                    app:iconSize="35dp"
+                    app:iconTint="#BFFFFFFF"
+                    app:iconTintMode="src_in" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="417dp">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="serif"
+                    android:text="Биография"
+                    android:textAlignment="viewStart"
+                    android:textAllCaps="false"
+                    android:textColor="#E6534C4C"
+                    android:textSize="24sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:id="@+id/textLeo"
+                    android:layout_width="359dp"
+                    android:layout_height="230dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="10sp"
+                    android:text="@string/Pablo1"
+                    android:textAlignment="center"
+                    android:textColor="#E6534C4C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="155dp"
+                    android:layout_marginTop="335dp"
+                    android:fontFamily="serif"
+                    android:text="@string/seeMore"
+                    android:textAlignment="center"
+                    android:textColor="#999B432C"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center|top"
+                android:fontFamily="serif"
+                android:text="Интересные факты"
+                android:textAlignment="viewStart"
+                android:textColor="#E6534C4C"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/textView408"
+                    android:layout_width="360dp"
+                    android:layout_height="127dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="8sp"
+                    android:text="• Несмотря на враждебное отношение публики к новой кубистской тенденции, их покупали.В полку почитателей Пикассо прибыло, появилось много русских, немцев, американцев."
+                    android:textAlignment="center"
+                    android:textColor="#E6534C4C"
+                    android:textSize="15sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="268dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="360dp"
+                    android:layout_height="249dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="8sp"
+                    android:text="• 1 мая 1970 года в Авиньонском папском дворце открылась гигантская выставка недавних творений Пикассо: 167 полотен, 45 рисунков. Кто знакомился в Авиньоне с последними его работами, были поражены необычайным обновлением художника во всем - в манере письма, цветах и сюжетах — и возвращением в его творчество Испании с мужчинами при шпагах, мушкетерами и матадорами."
+                    android:textAlignment="center"
+                    android:textColor="#E6534C4C"
+                    android:textSize="15sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text="Работы художника"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat" />
+
+            </FrameLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="346dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="370dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="270dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="214dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="300dp"
+                            android:fontFamily="serif"
+                            android:text="Дора Маар с зелеными ногтями
+                            1936"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView21"
+                            android:layout_width="240dp"
+                            android:layout_height="285dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_15595" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="288dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView90"
+                            android:layout_width="158dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginTop="275dp"
+                            android:fontFamily="serif"
+                            android:text="Гитара и ноты
+                            1912"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView24"
+                            android:layout_width="260dp"
+                            android:layout_height="280dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_33737" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="261dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="182dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="34dp"
+                            android:layout_marginTop="255dp"
+                            android:fontFamily="serif"
+                            android:text="Бюст лежащей женщины
+                            1970"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView23"
+                            android:layout_width="235dp"
+                            android:layout_height="285dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_52453" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="335dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView96"
+                            android:layout_width="224dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="55dp"
+                            android:layout_marginTop="255dp"
+                            android:fontFamily="serif"
+                            android:text="Студия с гипсовой головой
+                            1925 • 98×131 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="280dp"
+                            android:layout_height="280dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_90970" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

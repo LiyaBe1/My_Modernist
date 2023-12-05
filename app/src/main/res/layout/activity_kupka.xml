@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kupka">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTintMode="screen">
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="481dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/kupka_2__1_" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="430dp"
+                    android:fontFamily="serif"
+                    android:text="Чехия • 1871-1957"
+                    android:textAlignment="textStart"
+                    android:textColor="#D9FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="390dp"
+                    android:fontFamily="serif"
+                    android:text="Франтишек Купка"
+                    android:textColor="#D9FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="@style/Widget.Material3.Button.IconButton"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#BFFFFFFF"
+                    app:icon="@drawable/free_icon_arrow_left_9847479"
+                    app:iconGravity="textStart"
+                    app:iconSize="35dp"
+                    app:iconTint="#BFFFFFFF"
+                    app:iconTintMode="src_in" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="serif"
+                    android:text="Биография"
+                    android:textAlignment="viewStart"
+                    android:textAllCaps="false"
+                    android:textColor="#E6534C4C"
+                    android:textSize="24sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:id="@+id/textLeo"
+                    android:layout_width="359dp"
+                    android:layout_height="170dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="10sp"
+                    android:text="@string/Kupka1"
+                    android:textAlignment="center"
+                    android:textColor="#E6534C4C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="155dp"
+                    android:layout_marginTop="275dp"
+                    android:fontFamily="serif"
+                    android:text="@string/seeMore"
+                    android:textAlignment="center"
+                    android:textColor="#999B432C"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_gravity="center|top"
+                android:fontFamily="serif"
+                android:text="Интересные факты"
+                android:textAlignment="viewStart"
+                android:textColor="#E6534C4C"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="8sp"
+                    android:text="• Стал одним из создателей группы «Abstraction-Creation» («Абстракция-Творчество»), стремившейся придать новый импульс развитию беспредметного искусства."
+                    android:textAlignment="center"
+                    android:textColor="#E6534C4C"
+                    android:textSize="15sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="serif"
+                    android:text="Работы художника"
+                    android:textAlignment="viewStart"
+                    android:textColor="#E6534C4C"
+                    android:textSize="24sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat" />
+
+            </FrameLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="331dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="257dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="220dp"
+                            android:layout_height="285dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_4143" />
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="265dp"
+                            android:fontFamily="serif"
+                            android:text="Начало жизни
+                            1900 • 34×34 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="269dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView90"
+                            android:layout_width="204dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="27dp"
+                            android:layout_marginTop="275dp"
+                            android:fontFamily="serif"
+                            android:text="Клавиши фортепиано (Озеро)
+                            1909 • 72×78 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView24"
+                            android:layout_width="240dp"
+                            android:layout_height="260dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_56278" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="247dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="154dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="255dp"
+                            android:fontFamily="serif"
+                            android:text="Музыка
+                            1932"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView27"
+                            android:layout_width="220dp"
+                            android:layout_height="280dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_61527" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="266dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView97"
+                            android:layout_width="154dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="260dp"
+                            android:fontFamily="serif"
+                            android:text="Механизм
+                            1928"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView25"
+                            android:layout_width="240dp"
+                            android:layout_height="280dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_61630" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="297dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView96"
+                            android:layout_width="182dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="285dp"
+                            android:fontFamily="serif"
+                            android:text="Желтые вертикали
+                            1913 • 70×70 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView22"
+                            android:layout_width="260dp"
+                            android:layout_height="280dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_61968" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp" >
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

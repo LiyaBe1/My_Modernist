@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Amilio">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTintMode="screen">
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="481dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/emilio_pettoruti_retrato__1_" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="430dp"
+                    android:fontFamily="serif"
+                    android:text="Аргентина • 1892−1971"
+                    android:textAlignment="textStart"
+                    android:textColor="#D9FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="390dp"
+                    android:fontFamily="serif"
+                    android:text="Эмилио Петторути"
+                    android:textColor="#D9FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="@style/Widget.Material3.Button.IconButton"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#BFFFFFFF"
+                    app:icon="@drawable/free_icon_arrow_left_9847479"
+                    app:iconGravity="textStart"
+                    app:iconSize="35dp"
+                    app:iconTint="#BFFFFFFF"
+                    app:iconTintMode="src_in" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="498dp">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="serif"
+                    android:text="Биография"
+                    android:textAlignment="viewStart"
+                    android:textAllCaps="false"
+                    android:textColor="#E6534C4C"
+                    android:textSize="24sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:id="@+id/textLeo"
+                    android:layout_width="359dp"
+                    android:layout_height="307dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="10sp"
+                    android:text="@string/Amilio2"
+                    android:textAlignment="center"
+                    android:textColor="#E6534C4C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="155dp"
+                    android:layout_marginTop="420dp"
+                    android:fontFamily="serif"
+                    android:text="@string/seeMore"
+                    android:textAlignment="center"
+                    android:textColor="#999B432C"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_gravity="center|top"
+                android:fontFamily="serif"
+                android:text="Интересные факты"
+                android:textAlignment="viewStart"
+                android:textColor="#E6534C4C"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="191dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="8sp"
+                    android:text="• С 1927 года являлся профессором, а с 1930 года директором Музея изобразительных искусств в Ла-Плате. Под его руководством коллекция отказалась от провинциальной «краеведческой окраски» и стала обще-аргентинской художественной коллекцией."
+                    android:textAlignment="center"
+                    android:textColor="#E6534C4C"
+                    android:textSize="15sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/textView408"
+                    android:layout_width="360dp"
+                    android:layout_height="151dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:lineSpacingExtra="8sp"
+                    android:text="• В 1942 году Петторути посетил Сан-Франциско для проведения своей первой крупной выставки в США. Она расширила известность художника, что привело к тому, что больше музеев стали стремится к представлению его картин."
+                    android:textAlignment="center"
+                    android:textColor="#E6534C4C"
+                    android:textSize="15sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="89dp">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="serif"
+                    android:text="Работы художника"
+                    android:textAlignment="viewStart"
+                    android:textColor="#E6534C4C"
+                    android:textSize="24sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat" />
+
+            </FrameLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="346dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="300dp"
+                            android:fontFamily="serif"
+                            android:text="Арлекин
+                            1928"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="200dp"
+                            android:layout_height="285dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_07462" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView90"
+                            android:layout_width="158dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="300dp"
+                            android:fontFamily="serif"
+                            android:text="Импровизатор
+                            1937"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView24"
+                            android:layout_width="220dp"
+                            android:layout_height="285dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_07463" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="154dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="290dp"
+                            android:fontFamily="serif"
+                            android:text="Человек с желтым цветком. Поэт идальго
+                            1932"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView25"
+                            android:layout_width="210dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_07464" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="241dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView97"
+                            android:layout_width="154dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="300dp"
+                            android:fontFamily="serif"
+                            android:text="Арлекин
+                            1925"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView27"
+                            android:layout_width="230dp"
+                            android:layout_height="285dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_07465" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="298dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView96"
+                            android:layout_width="224dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="255dp"
+                            android:fontFamily="serif"
+                            android:text="Вино россо
+1927"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView21"
+                            android:layout_width="280dp"
+                            android:layout_height="260dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_07467" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="265dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView93"
+                            android:layout_width="167dp"
+                            android:layout_height="52dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="275dp"
+                            android:fontFamily="serif"
+                            android:text="Народная песня
+                            1927"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView22"
+                            android:layout_width="240dp"
+                            android:layout_height="260dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_07468" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

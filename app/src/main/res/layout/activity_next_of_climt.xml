@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NextOfClimtActivity">
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="1dp"
+        android:background="#FFFFFF"
+        app:icon="@drawable/free_icon_arrow_left_9847479"
+        app:iconGravity="textStart"
+        app:iconPadding="5sp"
+        app:iconSize="35dp"
+        app:iconTint="#BF9C9C9C"
+        app:iconTintMode="src_in"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="370dp"
+        android:layout_height="694dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:fontFamily="serif"
+                android:text="Биография"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#E6534C4C"
+                android:textSize="22sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textLeo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Climt2"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="329dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="232dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/_13699" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="177dp"
+                    android:layout_height="58dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="123dp"
+                    android:fontFamily="serif"
+                    android:text="Портрет Адели Блох-Бауэр I (Золотая Адель)
+
+                    1907 • 138×138 см"
+                    android:textAlignment="center"
+                    android:textColor="#99534C4C"
+                    android:textSize="12sp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="Особенности творчества художника"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#E6534C4C"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textLeo9"
+                android:layout_width="wrap_content"
+                android:layout_height="347dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Climt3"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="379dp"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="370dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="250dp"
+                        android:layout_height="370dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="220dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/_60875" />
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="167dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="300dp"
+                            android:fontFamily="serif"
+                            android:text="Эмилия Флёге в семнадцать лет
+                            1891"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="265dp"
+                            android:fontFamily="serif"
+                            android:text="Остров на озере Аттерзее
+                            1902 • 100×100 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="210dp"
+                            android:layout_height="290dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_91579" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView90"
+                            android:layout_width="149dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="305dp"
+                            android:fontFamily="serif"
+                            android:text="Любовь
+                            1895 • 60×44 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="220dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_10187" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:text="Известные картины художника"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#E6534C4C"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textLeo7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Climt4"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="398dp"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="400dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="284dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="250dp"
+                            android:layout_height="300dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_03229" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="105dp"
+                            android:fontFamily="serif"
+                            android:text="Поцелуй
+                            1908 • 180×180 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="254dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="183dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="100dp"
+                            android:fontFamily="serif"
+                            android:text="Портрет Адели Блох-Бауэр I (Золотая Адель)
+                            1907 • 138×138 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView85"
+                            android:layout_width="240dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_13699" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="183dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView87"
+                            android:layout_width="186dp"
+                            android:layout_height="66dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="135dp"
+                            android:fontFamily="serif"
+                            android:text="Юдифь и Олоферн
+                            1901 • 84×42 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView89"
+                            android:layout_width="165dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_94051" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="235dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView63"
+                            android:layout_width="182dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="265dp"
+                            android:fontFamily="serif"
+                            android:text="Три возраста женщины
+1905 , 180×180 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView45"
+                            android:layout_width="210dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_56119" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="368dp"
+                android:layout_height="29dp"
+                android:layout_gravity="center|top"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:text="Эволюция и революция "
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#E6534C4C"
+                android:textSize="22sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textLeo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Climt5"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="417dp">
+
+                <ImageView
+                    android:id="@+id/imageView116"
+                    android:layout_width="match_parent"
+                    android:layout_height="351dp"
+                    android:layout_marginTop="20dp"
+
+                    app:srcCompat="@drawable/_20019" />
+
+                <TextView
+                    android:id="@+id/textView325"
+                    android:layout_width="142dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="185dp"
+                    android:fontFamily="serif"
+                    android:text="Золотые рыбки
+                    1901 • 181×66.5 см"
+                    android:textAlignment="center"
+                    android:textColor="#99534C4C"
+                    android:textSize="12sp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textLeo6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="10sp"
+                android:text="@string/Climt6"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="14sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="323dp">
+
+                <ImageView
+                    android:id="@+id/imageView116с"
+                    android:layout_width="match_parent"
+                    android:layout_height="233dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/_02205" />
+
+                <TextView
+                    android:id="@+id/textView325л"
+                    android:layout_width="169dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="123dp"
+                    android:fontFamily="serif"
+                    android:text="Древо жизни (фрагмент для фриза дворца Стокле)
+                    1905 • 138.8×102 см"
+                    android:textAlignment="center"
+                    android:textColor="#99534C4C"
+                    android:textSize="12sp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textLeo8"
+                android:layout_width="wrap_content"
+                android:layout_height="511dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Climt7"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="400dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="284dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView67"
+                            android:layout_width="220dp"
+                            android:layout_height="300dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_91491" />
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="178dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="275dp"
+                            android:fontFamily="serif"
+                            android:text="Большой тополь II (Надвигающаяся гроза)
+                            1903 • 100.8×100.8 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="254dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView51"
+                            android:layout_width="183dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="270dp"
+                            android:fontFamily="serif"
+                            android:text="Озеро Аттерзее
+                            1900 • 80.2×80.2 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView815"
+                            android:layout_width="220dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_91493" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView871"
+                            android:layout_width="144dp"
+                            android:layout_height="43dp"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginTop="285dp"
+                            android:fontFamily="serif"
+                            android:text="Болото
+                            1900 • 80×80 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView891"
+                            android:layout_width="250dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_91577" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

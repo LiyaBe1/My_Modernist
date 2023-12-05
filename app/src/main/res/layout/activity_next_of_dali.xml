@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NextOfDaliActivity">
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="1dp"
+        android:background="#FFFFFF"
+        app:icon="@drawable/free_icon_arrow_left_9847479"
+        app:iconGravity="textStart"
+        app:iconPadding="5sp"
+        app:iconSize="35dp"
+        app:iconTint="#BF9C9C9C"
+        app:iconTintMode="src_in"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="370dp"
+        android:layout_height="694dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:fontFamily="serif"
+                android:text="Биография"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#E6534C4C"
+                android:textSize="22sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textLeo2"
+                android:layout_width="wrap_content"
+                android:layout_height="359dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Dali1"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="423dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="315dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/_0336" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="135dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="160dp"
+                    android:fontFamily="serif"
+                    android:text="Макрофотографический автопортрет с явлением Галы
+                    1962"
+                    android:textAlignment="center"
+                    android:textColor="#99534C4C"
+                    android:textSize="12sp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textLeo9"
+                android:layout_width="wrap_content"
+                android:layout_height="442dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Dali2"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="370dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="274dp"
+                        android:layout_height="370dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="250dp"
+                            android:layout_height="298dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/_61873" />
+
+                        <TextView
+                            android:id="@+id/textView3570"
+                            android:layout_width="116dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="160dp"
+                            android:fontFamily="serif"
+                            android:text="Галатея сфер
+                            1952 • 65×54 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView912"
+                            android:layout_width="183dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="300dp"
+                            android:fontFamily="serif"
+                            android:text="Портрет Гала с носорогическими признаками
+                            1954 • 39×31 см"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView723"
+                            android:layout_width="210dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_0097" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textLeo10"
+                android:layout_width="match_parent"
+                android:layout_height="304dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Dali3"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="391dp"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="250dp"
+                        android:layout_height="374dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView1164"
+                            android:layout_width="250dp"
+                            android:layout_height="298dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/_22980" />
+
+                        <TextView
+                            android:id="@+id/textView357"
+                            android:layout_width="179dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="160dp"
+                            android:fontFamily="serif"
+                            android:text="Скупцы и расточители. Иллюстрации к «Божественной комедии»
+                            1964 "
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="185dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="265dp"
+                            android:fontFamily="serif"
+                            android:text="Галатея в момент творения
+                            1954"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="210dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_76670" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textLeo7"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Dali4"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NextOfAmilioActivity">
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="1dp"
+        android:background="#FFFFFF"
+        app:icon="@drawable/free_icon_arrow_left_9847479"
+        app:iconGravity="textStart"
+        app:iconPadding="5sp"
+        app:iconSize="35dp"
+        app:iconTint="#BF9C9C9C"
+        app:iconTintMode="src_in"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="370dp"
+        android:layout_height="694dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:fontFamily="serif"
+                android:text="Биография"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#E6534C4C"
+                android:textSize="22sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textLeo2"
+                android:layout_width="wrap_content"
+                android:layout_height="749dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Amilio2"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="394dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="315dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/_07466" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="116dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="160dp"
+                    android:fontFamily="serif"
+                    android:text="Автопортрет
+                    1918"
+                    android:textAlignment="center"
+                    android:textColor="#99534C4C"
+                    android:textSize="12sp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textLeo9"
+                android:layout_width="wrap_content"
+                android:layout_height="347dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Amilio3"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="20dp"
+                android:fontFamily="serif"
+                android:text="Музыканты и арлекины"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#E6534C4C"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textLeo10"
+                android:layout_width="match_parent"
+                android:layout_height="717dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Amilio4"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="379dp"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="370dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="250dp"
+                        android:layout_height="370dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView1164"
+                            android:layout_width="250dp"
+                            android:layout_height="298dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/_07462" />
+
+                        <TextView
+                            android:id="@+id/textView357"
+                            android:layout_width="116dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="160dp"
+                            android:fontFamily="serif"
+                            android:text="Арлекин
+                            1928"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="164dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="275dp"
+                            android:fontFamily="serif"
+                            android:text="Народная песня
+                            1927"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="210dp"
+                            android:layout_height="290dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_07468" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:text="Натюрморты"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#E6534C4C"
+                android:textSize="21sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textLeo7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Amilio5"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="385dp">
+
+                <ImageView
+                    android:id="@+id/imageView117"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/_07467" />
+
+                <TextView
+                    android:id="@+id/textView377"
+                    android:layout_width="116dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="160dp"
+                    android:fontFamily="serif"
+                    android:text="Вино россо
+                    1927"
+                    android:textAlignment="center"
+                    android:textColor="#99534C4C"
+                    android:textSize="12sp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="368dp"
+                android:layout_height="29dp"
+                android:layout_gravity="center|top"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:text="Абстракция"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#E6534C4C"
+                android:textSize="22sp"
+                android:textStyle="italic"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textLeo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/Amilio6"
+                android:textAlignment="center"
+                android:textColor="#E6534C4C"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="400dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="260dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView67"
+                            android:layout_width="220dp"
+                            android:layout_height="300dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_07463" />
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="178dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="315dp"
+                            android:fontFamily="serif"
+                            android:text="Импровизатор
+                            1937"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="244dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView51"
+                            android:layout_width="183dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="295dp"
+                            android:fontFamily="serif"
+                            android:text="Человек с желтым цветком. Поэт идальго
+                             1932"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView815"
+                            android:layout_width="220dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_07464" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView871"
+                            android:layout_width="144dp"
+                            android:layout_height="43dp"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginTop="305dp"
+                            android:fontFamily="serif"
+                            android:text="Арлекин
+                            1925"
+                            android:textAlignment="center"
+                            android:textColor="#99534C4C"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:id="@+id/imageView891"
+                            android:layout_width="250dp"
+                            android:layout_height="290dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/_07465" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
