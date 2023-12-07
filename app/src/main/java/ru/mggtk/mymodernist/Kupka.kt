@@ -9,6 +9,7 @@ import android.widget.TextView
 import ru.mggtk.mymodernist.ui.home.HomeFragment
 
 class Kupka : AppCompatActivity() {
+    lateinit var button: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_kupka)

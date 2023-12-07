@@ -75,17 +75,6 @@ class HomeFragment : Fragment() {
         }
 
 
-        val textView = view.findViewById<TextView>(R.id.textView58)
-
-        textView.setOnClickListener {
-            val intent = Intent(activity, ArtistsFragment::class.java)
-            startActivity(intent)
-
-        }
-
-
-
-
 
         val homeViewModel =
             ViewModelProvider(this).get(HomeViewModel::class.java)

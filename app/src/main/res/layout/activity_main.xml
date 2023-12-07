@@ -4,5 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BFECE6DD"
-    tools:context=".MainActivity" />
+    android:background="#F1ECE4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="291dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="10sp"
+        android:text="Добро пожаловать в My Modernist!"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <Button
+        android:id="@+id/button11"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="159dp"
+        android:layout_height="63dp"
+        android:text="Начать"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.784" />
+</androidx.constraintlayout.widget.ConstraintLayout>
